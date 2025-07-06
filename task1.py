@@ -3,7 +3,7 @@ import pandas as pd
 
 # Want to make a Currency Calculator App load a data from csv file
 
-st.title("Currency Converter App")
+st.title("Currency Converter App 💵")
 
 file =  st.file_uploader("Upload you csv file" ,type=["csv"])
 
