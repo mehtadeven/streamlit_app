@@ -1,7 +1,14 @@
 import streamlit as st
 import pandas as pd
+from PIL import Image
 
 # Want to make a Currency Calculator App load a data from csv file
+im = Image.open("Money.png")
+st.set_page_config(
+    page_title="Currency Calculator App",
+    page_icon=im,
+    layout="wide",
+)
 
 st.title("Currency Converter App 💵")
 
